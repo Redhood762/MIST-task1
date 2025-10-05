@@ -1,0 +1,173 @@
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+#headline{
+    text-align: center;
+    font-family: cursive;
+    font-size: 75px;
+    color:#fff;
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 42px #00ffff,
+    0 0 77px #00ffff,
+    0 0 100px #00ffff;
+}
+.color-legend {
+  list-style: none;
+  padding: 0;
+}
+
+.color-legend li {
+  margin-bottom: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.color-box {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+  vertical-align: middle;
+  border: 1px solid #000;
+}
+
+.red { background-color: #ff0000; }
+.yellow { background-color: #ffff00; }
+.green { background-color: #00ff00; }
+.blue{ background-color: #00ffff;}
+.violet{ background-color: blueviolet;}
+.pink{ background-color: deeppink;}
+h2:hover{
+    background: white;
+    color:  black;
+    box-shadow: 0 0 5px white,
+    0 0 25px white,
+    0 0 50px white,
+    0 0 200px white;
+}
+h2{
+    text-align: center;
+}
+.pie-chart1 {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(
+        #ff0000 0% 50%,   
+        #ffff00 50% 67%,
+        #00ff00 67% 72%,
+        #00ffff 72% 80%,
+        blueviolet 80% 98%,
+        deeppink 98% 100%
+      );
+      margin: 20px auto;
+      position: relative;
+    }
+    .pie-chart2 {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(
+        #ff0000 0% 33%,   
+        #ffff00 33% 55%,
+        #00ff00 55% 68%,
+        #00ffff 68% 90%,
+        blueviolet 90% 95%,
+        deeppink 95% 100%
+      );
+      margin: 20px auto;
+      position: relative;
+    }
+    .pie-chart3 {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(
+        #ff0000 0% 10%,   
+        #ffff00 10% 55%,
+        #00ff00 55% 65%,
+        #00ffff 65% 80%,
+        blueviolet 80% 100%,
+        deeppink 100% 100%
+      );
+      margin: 20px auto;
+      position: relative;
+    }
+    .pie-chart4 {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(
+        #ff0000 0% 0%,   
+        #ffff00 0% 27%,
+        #00ff00 27% 70%,
+        #00ffff 70% 80%,
+        blueviolet 80% 90%,
+        deeppink 90% 100%
+      );
+      margin: 20px auto;
+      position: relative;
+    }
+    .pie-chart5 {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(
+        #ff0000 0% 33%,   
+        #ffff00 33% 40%,
+        #00ff00 40% 57%,
+        #00ffff 57% 80%,
+        blueviolet 80% 98%,
+        deeppink 98% 100%
+      );
+      margin: 20px auto;
+      position: relative;
+    }
+    .pie-chart6 {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(
+        #ff0000 0% 25%,   
+        #ffff00 25% 33%,
+        #00ff00 33% 45%,
+        #00ffff 45% 55%,
+        blueviolet 55% 98%,
+        deeppink 98% 100%
+      );
+      margin: 20px auto;
+      position: relative;
+    }
+    .pie-chart7 {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(
+        #ff0000 0% 40%,   
+        #ffff00 40% 60%,
+        #00ff00 60% 80%,
+        #00ffff 80% 95%,
+        blueviolet 95% 100%,
+        deeppink 100% 100%
+      );
+      margin: 20px auto;
+      position: relative;
+    }
+    .pie-chart8 {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(
+        #ff0000 0% 16.6%,   
+        #ffff00 16.6% 33.3%,
+        #00ff00 33.3% 48.9%,
+        #00ffff 48.9% 67.6%,
+        blueviolet 67.7% 84.3%,
+        deeppink 84.3% 100%
+      );
+      margin: 20px auto;
+      position: relative;
+    }
